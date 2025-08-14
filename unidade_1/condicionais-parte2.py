@@ -1,7 +1,6 @@
 from ola_mundo import Nome
+user = Nome().nome()
 
-nome = Nome()
-user = nome.nome()
 idade = int(input(f"Digite sua idade {user}:"))
 
 if idade < 12:
