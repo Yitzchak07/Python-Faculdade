@@ -2,10 +2,10 @@ def media_aluno():
     while True:
         media = 0
 
-        nota1 = int(input(f"digite a nota do aluno "))
-        nota2 = int(input(f"digite a nota do aluno "))
-        nota3 = int(input(f"digite a nota do aluno "))
-        nota4 = int(input(f"digite a nota do aluno "))
+        nota1 = float(input(f"digite a nota do aluno "))
+        nota2 = float(input(f"digite a nota do aluno "))
+        nota3 = float(input(f"digite a nota do aluno "))
+        nota4 = float(input(f"digite a nota do aluno "))
             
         media = (nota1 + nota2 + nota3 + nota4) / 4 
         if media >= 6:
